@@ -24,7 +24,11 @@ Install Python 3, then install the required packages:
 ```bash
 pip install pyautogui pillow mss
 ```
+If pip is not recognized, use:
 
+```
+python -m pip install pyautogui pillow mss
+```
 For `dots.py`, `tkinter` is also required. On most Windows Python installs it is included by default.
 
 ---
