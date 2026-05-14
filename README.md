@@ -5,7 +5,7 @@ Simple auto-clicker for Flight Rising minigame one can use to solve Glimmer &amp
 This repository contains two scripts:
 
 - `bot.py` — automatically solves the board and clicks the required hexes.
-- `dots.py` / `kropki.py` — shows red dots over the hexes you should click manually. It does **not** click the board for you.
+- `dots.py` — shows red dots over the hexes you should click manually. It does **not** click the board for you.
 
 Both scripts use the same calibration file:
 
@@ -211,13 +211,11 @@ Increase this value if the next board is not ready when the bot reads it.
 
 ---
 
-# Using `dots.py` / `kropki.py`
+# Using `dots.py`
 
 `dots.py` is the manual helper.
 
 It does **not** click any hexes. Instead, it reads the board, solves it, and places red dots over the hexes you should click manually.
-
-The current file may still be named `kropki.py`. The intended final name is `dots.py`. Use whichever filename exists in your folder.
 
 Examples below use `dots.py`.
 
