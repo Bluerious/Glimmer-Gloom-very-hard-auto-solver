@@ -56,6 +56,26 @@ Do not change browser zoom, scroll position, monitor layout, or board position a
 
 ---
 
+### Windows note
+
+If you want to run the scripts from a normal Command Prompt using simple commands like:
+
+```bash
+python bot.py --calibrate
+```
+
+put `bot.py`, `dots.py`, and `README.md` in your user folder, for example:
+
+```text
+C:\Users\YourName
+```
+
+Alternatively, open Command Prompt in the folder where the files are located, or use `cd` to move to that folder first.
+
+If installation or script execution fails because of permissions, try opening Command Prompt as administrator and run the command again.
+
+---
+
 # Using `bot.py`
 
 `bot.py` automatically reads the board, calculates the solution, clicks the required hexes, and can click the **Play Again** button between games.
